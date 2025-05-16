@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
+import "./App.css";
+import MemoryGame from "./components/memory-game";
 
-const App = () => {
-  return (
-    <div>
-      hii
-    </div>
-  )
+function App() {
+  return <MemoryGame />;
 }
 
-export default App
+export default App;
